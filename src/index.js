@@ -11,6 +11,7 @@ const server = new GraphQLServer({
         description_intro: String
         language: String
         medium_cover_image: String
+        summary: String
         genres: [String]
       }
       
